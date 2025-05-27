@@ -118,14 +118,13 @@ class Body extends React.Component<BodyProps, BodyState> {
                 </Table>
             </TableContainer>
             <TablePagination
-            className={classes.pagination}
-            rowsPerPageOptions={[3, 5, 10]}
-            component="div"
-            count={products.length}
-            rowsPerPage={rowsPerPage}
-            page={page}
-            onChangePage={this.handleChangePage}
-            onChangeRowsPerPage={this.handleChangeRowsPerPage}
+             className={classes.pagination}
+             rowsPerPageOptions={[3, 5, 10]}
+             count={products.length}
+             rowsPerPage={rowsPerPage}
+             page={page}
+             onPageChange={this.handleChangePage}
+             onRowsPerPageChange={this.handleChangeRowsPerPage}
             />
         </Paper>
       </div>

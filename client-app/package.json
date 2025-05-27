@@ -12,8 +12,9 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "autoprefixer": "9",
     "miragejs": "^0.1.41",
-    "postcss": "8.4.21",
+    "postcss": "7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -43,9 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "resolutions": {
-  "postcss": "8.4.21"
-}
-
+  }
 }
