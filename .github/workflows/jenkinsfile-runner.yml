@@ -18,6 +18,10 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
+      - name: Set up Node.js (v18)
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
 
       - name: Grant execute permission to Gradle
         run: chmod +x ./gradlew
